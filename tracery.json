@@ -7,7 +7,7 @@
 
 "query": ["#intro#  #story#"],
 
-"intro": ["Last question.", "Reaction time is a factor in this.", "Please pay attention.", "Now, answer as quickly as you can.", "Just answer the questions, please --", " ", " ", " ", " ", " ", " "],
+"intro": ["Last question.", "Reaction time is a factor in this.", "Please pay attention.", "Now, answer as quickly as you can.", "Just answer the questions, please --", "Think carefully: ", "Please look directly into the machine", " ", " ", " ", " ", " ", " ", " ", " ", " ", " "],
 
 "story": ["#person_situation# #person_meta_context# #person_action# #person_question#", "#animal_situation# #animal_meta_context# #animal_action# #animal_question#", "#event_situation# #event_meta_context# #event_action# #event_question#", "#object_situation# #object_meta_context# #object_action# #object_question#"],
 
@@ -15,26 +15,26 @@
 "person_meta_context": [" ", "#person_context#", "#person_context#", "#person_context#", "#person_context# #person_context#", "#person_context# Then #person_context#"],
 "person_context": ["#generic_context#", "She/He shows you her/his #crawler# collection, plus the killing jar.", "She/He shows you her/his expensive artificial #animal#.", "She/he shows you his/her favorite #emotional_place#.", "Do they remind you of someone?", "They smile like your #person#.", "They're cruel like your #person#."],
 "person_action": ["#generic_action#", "He showed you his, but when it got to be your turn you chickened and ran.", "You realized you hate him/her.", "You realized you love him/her.", "You decide to end things with your partner.", "You wonder if everyone is like this."],
-"person_question": ["#generic_question#", "Do you trust them?", "Why wouldn't you confront them?"],
+"person_question": ["#generic_question#", "#generic_question#", "#generic_question#", "Do you trust them?", "Why wouldn't you confront them?"],
 
-"animal_situation": ["You’re in a desert walking along in the sand when all of the sudden you look down, and you see #animal.a#.", "You remember the #animal# that lived in a bush outside your window.", "You think of #animal.a# dying in #emotional_place.a#.", "You have a dream about buying #animal.a#."],
+"animal_situation": ["You’re in a desert walking along in the sand when all of the sudden you look down, and you see #animal.a#.", "You remember the #crawler# that lived in a bush outside your window.", "You think of #animal.a# dying in #emotional_place.a#.", "You have a dream about buying #animal.a#."],
 "animal_meta_context": [" ", "#animal_context#", "#animal_context#", "#animal_context#", "#animal_context# #animal_context#", "#animal_context# Then #animal_context#"],
 "animal_context": ["#generic_context#", "It’s crawling toward you.", "It moves towards you, in slow motion.", "It lays on its back, its belly baking in the hot sun, beating its legs trying to turn itself over, but it can’t, not without your help.", "#color.capitalize#ish body, #color# legs.", "Or was it a spider?  You watched her build a web that whole summer.  Then one day there was a big egg...", "You reach down, you flip it over on its back.", "You wonder what it's like to decompose."],
 "animal_action": ["#generic_action#", "But you're are not helping."],
-"animal_question": ["#generic_question#", "Have you ever harmed an animal?", "Have you ever wanted to own a pet?", "How do animals make you feel?", "Does it remind you of someone?"],
+"animal_question": ["#generic_question#", "#generic_question#", "#generic_question#", "Have you ever harmed an animal?", "Have you ever wanted to own a pet?", "How do animals make you feel?", "Does it remind you of someone?"],
 
-"event_situation": ["You're worried about the future.", "You're watching a stage play.", "You're watching television.", "It's your birthday.", "You're in #emotional_place.a#", "You're reading a magazine.", "You're in #emotional_place.a#", "You're having a dream.", "You're eating at a restaurant alone.", "You're in a strange building.", "You're skinny dipping in a lake with a lover.", "You're listening to your favorite song.", "You're at your #person#'s funeral.", "You're #emotional_experience# for the first time.", "You're in a kitchen cooking with your #person#.", "An accident at work puts you in the hospital.", "You're stuck somewhere familiar.", "You're in your childhood #emotional_place#.", "You meet your #person# at a bar downtown.", "You're on a train late at night.", "You're at the vets, putting down your childhood pet.", "You're hovering over the city.", "You imagine living in a building infested with #crawler#s.", "You find a knife buried under the floorboards.", "You catch your reflection in a mirror."],
+"event_situation": ["You're worried about the future.", "You're watching a stage play.", "You're watching television.", "It's your birthday.", "You're in #emotional_place.a#", "You're reading a magazine.", "You're in #emotional_place.a#", "You're having a dream.", "You're eating at a restaurant alone.", "You're in a strange building.", "You're skinny dipping in a lake with a lover.", "You're listening to your favorite song.", "You're at your #person#'s funeral.", "You're #emotional_experience# for the first time.", "You're in a kitchen cooking with your #person#.", "An accident at work puts you in the hospital.", "You're stuck somewhere familiar.", "You're in your childhood #emotional_place#.", "You meet your #person# at a bar downtown.", "You're on a train late at night.", "You're at the vets, putting down your childhood pet.", "You're hovering over the city.", "You imagine living in a building infested with #crawler#s.", "You find a knife buried under the floorboards.", "You catch your reflection in a mirror.", "A banquet is in progress; the entrée consists of boiled #animal# stuffed with rice."],
 "event_meta_context": [" ", "#event_context#", "#event_context#", "#event_context#", "#event_context# #event_context#", "#event_context# Then #event_context#"],
-"event_context": ["#generic_context#", "You can't stop thinking about visiting #emotional_place.a# from your childhood.", "You see #crawler.a#'s nest.", "The guests are enjoying an appetizer of raw #animal.s#.", "A banquet is in progress; the entrée consists of boiled #animal# stuffed with rice."],
+"event_context": ["#generic_context#", "You can't stop thinking about visiting #emotional_place.a# from your childhood.", "You see #crawler.a#'s nest.", "The guests are enjoying an appetizer of raw #animal.s#."],
 "event_action": ["#generic_action#", "You want to leave.", "You want to stay forever.", "It's good to be back, isn't it?", "It's like the first place you remember #emotional_experience#."],
-"event_question": ["#generic_question#", "How did you got here?", "How will you be able to escape?"],
+"event_question": ["#generic_question#", "#generic_question#", "#generic_question#", "How did you get here?", "How will you be able to escape?", "When was the last time you were here?", "What does it all mean to you?"],
 
 
 "object_situation": ["You come across #object.a#.", "Your #person# gives you #object.a#.", "You recieve #object.a# for christmas from your #person#.", "You find #object.a# abandoned on the street.", "You can't stop thinking about #object.a#.", "You see #object.a# at a store, just out of reach.", "You're burying something in the ground."],
 "object_meta_context": [" ", " ", "#object_context#", "#object_context#", "#object_context#", "#object_context# #object_context#", "#object_context# Then #object_context#"],
 "object_context": ["#generic_context#", "You show it to your #person#.", "Your #person# likes it so much, he/she hangs it on your bedroom wall.", "You're worried your #person# will take it from you.", "You wish you could keep it safe forever.", "You're worried you're going to break it.", "It reminds you of happier days spent at your #emotional_place#."],
-"object_action": ["#generic_action#", "You decide to destroy it.", "You comission the creation of a duplicate.", "You accept that it's very comforting.", "You wish everyone could tell how important it was to you."],
-"object_question": ["#generic_question#", "If you could save one object from your home, what would it be?", "What was your most prized posession in childhood?", "What would happen if you lost it?"],
+"object_action": ["#generic_action#", "You decide to destroy it.", "You comission the creation of a duplicate.", "You realize that it's very comforting.", "You wish everyone could tell how important it was to you."],
+"object_question": ["#generic_question#", "#generic_question#", "#generic_question#", "If you could save one object from your home, what would it be?", "What was your most prized posession in childhood?", "What would happen if you lost it?"],
 
 
 "generic_context": ["Suddenly you realize there’s a #crawler# crawling on your arm.", "Suddenly you remember your #person#'s face.", "You start to sweat.", "It reminds you of something.", "Suddenly, no one around you can understand what you're saying.", "You smell something intoxicating.", "It smells like an old #emotional_place#.", "It smells like your #person#.", "You hear distant music.", "It feels like you're drowning.", "It reminds you of your #person#.", "You feel #feeling#."],
@@ -49,7 +49,7 @@
 "animal": ["dog", "oyster", "butterfly", "calf", "tortoise", "horse", "owl", "cat", "turtle", "snake", "fish", "butterfly", "bear", "dove", "chicken", "tiger"],
 "crawler": ["cockroach", "butterfly", "mosquito", "fly", "wasp", "scorpion", "ant", "spider"],
 
-"emotional_place": ["playground", "church", "home", "school", "river", "ocean", "stable", "barn", "forest", "favorite cafe", "trail", "bedroom", "doctor's office", "cramped cell", "hospital", "country house", "room", "library", "temple", "favorite restaurant", "favorite bar"],
+"emotional_place": ["playground", "church", "home", "school", "river", "ocean", "stable", "barn", "forest", "favorite cafe", "trail", "bedroom", "doctor's office", "cramped cell", "hospital", "country house", "room", "library", "temple", "favorite restaurant", "favorite bar", "desert"],
 
 "emotional_experience": ["having sex", "getting drunk", "kissing someone", "being lied to", "telling a lie", "experiencing loss", "breaking someone's heart", "falling in love"],
 
