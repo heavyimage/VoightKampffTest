@@ -1,49 +1,59 @@
 {
-"origin": ["#query#", "#query#", "#query#", "#query#", "#query#", "#quote#", "*#actions#*"],
+"origin": ["#query#", "#query#", "#query#", "#query#", "#query#", "#quip#", "*#actions#*"],
 
 "actions": ["Measures blush response", "Tinkers with dials", "Takes a long drag", "Studies readouts", "Grins disarmingly", "Readouts jump", "The machine breathes"],
 
-"quote": ["Don't move.", "We call it Voight Kampff for short.", "One one eight seven at Hunterwasser...", "Nice place?", "Doesn't make any difference what desert...it's completely hypothetical.", "Maybe you're fed up, maybe you want to be by yourself.. who knows.", "Know what #animal.a# is?", "Same thing.", "In answer to your query, they're written down for me.  It's a test, designed to provoke an emotional response.", "Shall we continue?", "It's too bright in here.", "It won't affect the test.", "I'm going to ask you a series of questions. Just relax and answer them as simply as you can.", "Memories. You're talking about memories.", "And if the machine doesn't work?", "Remember that? You ever tell anybody that?", "Okay, bad joke. I made a bad joke.", "You're not a replicant. Go home, okay? No really, I'm sorry. Go home."],
+"quip": ["Don't move.", "We call it Voight Kampff for short.", "One one eight seven at Hundertwasser...", "Nice place?", "Doesn't make any difference what desert...it's completely hypothetical.", "Maybe you're fed up, maybe you want to be by yourself.. who knows.", "Know what #animal.a# is?", "Same thing.", "In answer to your query, they're written down for me.  It's a test, designed to provoke an emotional response.", "Shall we continue?", "It's too bright in here.", "It won't affect the test.", "I'm going to ask you a series of questions. Just relax and answer them as simply as you can.", "Memories. You're talking about memories.", "Remember that? You ever tell anybody that?", "Okay, bad joke. I made a bad joke.", "You're not a replicant. Go home, okay? No really, I'm sorry. Go home."],
 
-"query": ["#intro#  #story#  #decision#  #question#"],
+"query": ["#intro#  #story#"],
 
-"intro": ["Last question.", "Reaction time is a factor in this, so please pay attention.", "Now, answer as quickly as you can.", "Just answer the questions, please -- ", "Imagine how it feels to be six again.", " ", " ", " ", " ", " ", " "],
+"intro": ["Last question.", "Reaction time is a factor in this.", "Please pay attention.", "Now, answer as quickly as you can.", "Just answer the questions, please -- ", " ", " ", " ", " ", " ", " "],
 
-"story": ["#person_situation# #person_meta_context#", "#animal_situation# #animal_meta_context#", "#event_situation# #event_meta_context#", "#object_situation# #object_meta_context#"],
+"story": ["#person_situation# #person_meta_context# #person_action# #person_question#", "#animal_situation# #animal_meta_context# #animal_action# #animal_question#", "#event_situation# #event_meta_context# #event_action# #event_question#", "#object_situation# #object_meta_context# #object_action# #object_question#"],
 
-"person_situation": ["You become pregnant by a man who runs off with your best friend.", "You've got a little boy.", "You're playing chess with your boss.", "You and your brother snuck into an empty building through a basement window.", "You're at a piano lesson with your teacher."],
-"person_meta_context": [" ", " ", "#person_context#", "#person_context#", "#person_context#", "#person_context# #person_context#", "#person_context# #person_context#"],
-"person_context": ["#generic_context#", "He shows you his #animal# collection, plus the killing jar.", "He shows you his expensive artificial #animal#.", "You were gonna play doctor.  He showed you his, but when it got to be your turn you chickened and ran."],
+"person_situation": ["You become pregnant by a man who runs off with your husband.", "You've got a little boy.", "You're playing chess with your #person#.", "You and your #person# snuck into an empty building through a basement window.", "You're at a piano lesson with your teacher.", "Your coworker is chosen for a promotion instead of you.", "You catch your wife with another man.", "You see a homeless person begging for money.", "You see a terrified woman running through the street.", "Your #person# is dying."],
+"person_meta_context": [" ", "#person_context#", "#person_context#", "#person_context#", "#person_context# #person_context#", "#person_context# #person_context#"],
+"person_context": ["#generic_context#", "He shows you his #animal# collection, plus the killing jar.", "He shows you his expensive artificial #animal#.", "You were gonna play doctor."],
+"person_action": ["#generic_action#", "He showed you his, but when it got to be your turn you chickened and ran.", "You decide to end things with your partner."],
+"person_question": ["#generic_question#"],
 
+"animal_situation": ["You’re in a desert walking along in the sand when all of the sudden you look down, and you see #animal.a#.", "You remember the #animal# that lived in a bush outside your window.", "There's #animal.a#.", "You see #animal.a# dying on the street.", "You have a dream about buying #animal.a#.", "You see #animal.a# skull on the wall.", "You're at the vets, putting down your childhood pet."],
+"animal_meta_context": [" ", "#animal_context#", "#animal_context#", "#animal_context#", "#animal_context# #animal_context#", "#animal_context# #animal_context#"],
+"animal_context": ["#generic_context#", "It’s crawling toward you.", "It moves towards you, in slow motion.", "It lays on its back, its belly baking in the hot sun, beating its legs trying to turn itself over, but it can’t, not without your help.", "#color.capitalize# body, #color# legs.", "Watched her build a web all summer.", "Then one day there was a big egg...", "You reach down, you flip it over on its back."],
+"animal_action": ["#generic_action#","But you're are not helping."],
+"animal_question": ["#generic_question#", "Have you ever harmed an animal?"],
 
-"animal_situation": ["You’re in a desert walking along in the sand when all of the sudden you look down, and you see #animal.a#.", "You remember the #animal# that lived in a bush outside your window?", "There's #animal.a#."],
-"animal_meta_context": [" ", " ", "#animal_context#", "#animal_context#", "#animal_context#", "#animal_context# #animal_context#", "#animal_context# #animal_context#"],
-"animal_context": ["#generic_context#", "It’s crawling toward you.", "It gallops towards you, majestically.", "It lays on its back, its belly baking in the hot sun, beating its legs trying to turn itself over, but it can’t, not without your help.", "#color# body, #color# legs.", "Watched her build a web all summer.", "Then one day there was a big egg..."],
+"event_situation": ["You're watching a stage play.", "You're watching television.", "It's your birthday.", "You're in a jungle", "You're reading a magazine.", "You're at the police station.", "You're having a dream.", "You're eating at a restaurant alone.", "You're in a strange building.", "You're skinny dipping in a lake with a lover.", "You're listening to your favorite song.", "You're at your #person#'s funeral.", "You're drunk for the first time.", "You're in a kitchen cooking with your #person#.", "An accident at work puts you in the hospital.", "You're stuck somewhere, unable to leave.", "You're in your childhood bedroom.", "You meet your #person# at a bar downtown."],
+"event_meta_context": [" ", "#event_context#", "#event_context#", "#event_context#", "#event_context# #event_context#", "#event_context# #event_context#"],
+"event_context": ["#generic_context#", "You can't stop thinking about a playground.", "You see #crawler.a#'s nest.", "The guests are enjoying an appetizer of raw #animal.s#.", "A banquet is in progress; the entrée consists of boiled #animal# stuffed with rice."],
+"event_action": ["#generic_action#"],
+"event_question": ["How did you got here?", "#generic_question#"],
 
-
-"event_situation": ["You're watching a stage play - a banquet is in progress.", "You're watching television.", "It's your birthday.", "You're reading a magazine.", "You're at the train station", "You're having a dream.", "You're eating at a restaurant alone."],
-"event_meta_context": [" ", " ", "#event_context#", "#event_context#", "#event_context#", "#event_context# #event_context#", "#event_context# #event_context#"],
-"event_context": ["#generic_context#", "The guests are enjoying an appetizer of raw #animal.s#.", "The entree consists of boiled #animal# stuffed with rice."],
-
-
-"object_situation": ["You come across a full-page nude photo of a girl.", "Someone gives you a #animal#skin wallet."],
+"object_situation": ["You come across #object.a#.", "Your #person# gives you #object.a#.", "You recieve #object.a# for christmas from your #person#.", "You find #object.a# abandoned on the street.", "You can't stop thinking about #object#."],
 "object_meta_context": [" ", " ", "#object_context#", "#object_context#", "#object_context#", "#object_context# #object_context#", "#object_context# #object_context#"],
-"object_context": ["#generic_context#", "You show it to your husband; He likes it so much, he hangs it on your bedroom wall."],
+"object_context": ["#generic_context#", "You show it to your husband", "He likes it so much, he hangs it on your bedroom wall."],
+"object_action": ["#generic_action#"],
+"object_question": ["#generic_question#", "If you could save one object from your home, what would it be?"],
 
 
-"generic_context": ["Suddenly you realize there’s a #crawler# crawling on your arm.", "Suddenly you remember your #familymember#."],
+"generic_context": ["Suddenly you realize there’s a #crawler# crawling on your arm.", "Suddenly you remember your #person#.", "You start to sweat.", "It reminds you of something.", "Suddenly, no one around you can understand what you're saying.", "You smell something intoxicating.", "It smells like home.", "It smells like your #person#.", "You hear distant music.", "It feels like you're drowning."],
 
-"decision": ["But you're are not helping.", "You decide to get an abortion.", "You reach down, you flip it over on its back.", "You look away.", "You decide to find your #familymember#.", "You decide to go home.", "You decide to leave.", "You stay right where you are."],
+"generic_action": ["You decide to get an abortion.", "You look away.", "You decide to find your #person#.", "You decide to go traveling.", "You laugh unexpectedly.", "You think of going north.", "You want to give up.", "You feel #feeling#."],
 
-"question": ["How do you react?", "Why is that?", "How does that make you feel?", "Describe in single words, only the good things that come into your mind about your #familymember#.", "Why not?", "Describe your thought process.", "What is your main concern?", "If you could travel anywhere in the world, where would you go?", "If you could save one object from your home, what would it be?", "What are you afraid of?"],
+"generic_question": ["How do you think someone else would have reacted?", "Why is that?", "How does that make you feel?", "Describe in single words, only the good things that come into your mind about your #person#.", "What is your chief concern?", "If you could travel anywhere, where would you go?", "What are you afraid of?", "Why do you think your #person# abandoned you?", "Why don't women seem to like you?", "What piece of music does this remind you of?", "But what if it was the only way to feed a starving child?", "If you found out you were going to die today, would you have any regrets?", "Who do you trust?", "What do you want instead?", "When was the last time you were truely happy?", "What was it like the first time you had sex?", "Do you think the rules apply to you?", "Do you ever worry about the consequences of your actions?", "Do you consider yourself reliable?", "How often do you cheat at games?", "What is your favorite smell?", "What is your favorite color?", "What do you remember about your childhood?", "Did you ever run away as a child?", "Can you play any instraments?"],
 
-"animal": ["dog", "oyster", "butterfly", "calf", "tortoise", "horse", "owl", "cat", "turtle", "snake", "fish", "unicorn", "butterfly"],
+"object": ["full-page nude photo of a girl", "#animal#-skin wallet", "#color# toy car", "#color# model sailboat", "collection of old photographs", "bottle of Vodka", "rusty nail"],
 
-"crawler": ["cockroach", "butterfly", "mosquito", "fly", "wasp"],
+"animal": ["dog", "oyster", "butterfly", "calf", "tortoise", "horse", "owl", "cat", "turtle", "snake", "fish", "butterfly", "bear", "dove", "chicken"],
 
-"familymember": ["mother", "aunt", "neice", "father", "brother", "sister", "wife", "husband", "grandfather", "grandmother"],
+"crawler": ["cockroach", "butterfly", "mosquito", "fly", "wasp", "scorpion", "ant", "spider"],
+
+"person": ["mother", "aunt", "neice", "cousin", "father", "brother", "sister", "wife", "husband", "grandfather", "grandmother", "best friend", "rival"],
+
+"feeling": ["warm", "cold", "hot", "hollow", "empty", "paralyzed", "betrayed", "ill-at-ease", "trapped", "livid", "furious", "upset", "curious", "devastated"],
 
 "color": ["orange","green","blue","tan","white","black","red"]
+
 
 }
 
