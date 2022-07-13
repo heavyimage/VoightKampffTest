@@ -1,3 +1,5 @@
+### Concept
+
 I love blade runner.  And I'm getting into twitter bots...
 
 > Think carefully:  You find a tan toy car abandoned on the street. You show it to your brother. You wish you could keep it safe forever. You comission the creation of a duplicate. Did you ever run away as a child?
@@ -28,7 +30,15 @@ I love blade runner.  And I'm getting into twitter bots...
 >
 > Just answer the questions, please -- You find a turtle skull abandoned on the street. You're worried your best friend will take it from you. You wish everyone could tell how important it was to you. What do you do when you're betrayed?
 
-## TODO
+Lets use [tracery](http://tracery.io/) to make a bot that sounds like a Voight Kampff machine!
+
+### Resources
+* [BR Script](https://www.trussel.com/bladerun.htm)
+* Tracery Editors:
+    * <http://tracery.io/editor/>
+    * <http://www.brightspiral.com/tracery/>
+
+### TODO
 * deep options by adding more generic categories:
     * emotionally resonant places (lake / playground / home / school / church)
     * smells
@@ -43,10 +53,4 @@ I love blade runner.  And I'm getting into twitter bots...
 * Emotional stories to mine: <https://www.reddit.com/r/AskReddit/comments/16tm3v/whats_the_strongest_memory_from_your_childhood/>
 * Move strongly specific BR VK questions into 'quips' rather than leveraging their chunks
     * eg: "you were going to play doctor"
-
-## Resources
-* [BR Script](https://www.trussel.com/bladerun.htm)
-* Tracery Editors:
-    * <http://tracery.io/editor/>
-    * <http://www.brightspiral.com/tracery/>
 
